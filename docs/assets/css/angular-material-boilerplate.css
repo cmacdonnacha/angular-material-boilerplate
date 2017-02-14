@@ -1,0 +1,6 @@
+/**
+ * angular-material-boilerplate v1.0.0
+ * Copyright (c) 2017 Cathal Mac Donnacha
+ * Licensed under MIT
+ */
+body{background-color:#d3d3d3}.todo-page md-checkbox{max-width:20px}.sidenav md-sidenav{max-width:250px}.sidenav .profile-details{margin:10px 0 10px 0}.sidenav .profile-img{width:40%;height:40%;border-radius:50%}@media (min-width:600px){.sidenav .sidenav-profile{margin-top:10px}}.sidenav .menu-items .selected{color:#03a9f4}.img-circle{width:50%;height:50%;border-radius:50%}
