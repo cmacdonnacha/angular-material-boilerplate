@@ -1,0 +1,31 @@
+<div class="sidenav" ng-controller="SideNavCtrl as sideNav" layout="column" flex>
+  <md-sidenav md-component-id="left" md-is-locked-open="$mdMedia('gt-xs')" md-whiteframe="5" flex>
+
+    <md-toolbar layout="column">
+      <!-- CLOSE BUTTON - DISPLAYED ON SMALL SCREENS ONLY -->
+      <div layout="row" hide-gt-xs>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="sideNav.closeSideNav()" aria-label="Close Menu">
+          <md-icon>close</md-icon>
+        </md-button>
+      </div>
+
+      <!-- USER PROFILE -->
+      <div class="sidenav-profile" layout="column" layout-align="start center">
+        <img src="assets/images/user-profile.png" class="profile-img">
+        <div class="profile-details" layout="column" layout-align="start center">
+          <span>Joe Bloggs</span>
+          <span class="md-body-1">Director</span>
+        </div>
+      </div>
+    </md-toolbar>
+
+    <!-- VERTICAL MENU ITEMS -->
+    <md-list class="menu-items">
+      <md-list-item ng-click="sideNav.selectMenuItem(menuItem)" ng-repeat="menuItem in sideNav.menuItems">
+        <p ng-class="{'selected' : menuItem === sideNav.selected }"> {{ menuItem.name }} </p>
+      </md-list-item>
+    </md-list>
+
+  </md-sidenav>
+</div>

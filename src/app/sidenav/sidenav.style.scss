@@ -1,0 +1,26 @@
+@import "../shared/styles/_mixins";
+
+.sidenav {
+  md-sidenav {
+    max-width: 250px;
+  }
+
+  .profile-details {
+    margin: 10px 0 10px 0;
+  }
+
+  .profile-img {
+    @include circle(40%, 40%);
+  }
+
+  // Add a margin above the profile when the width is greater than 600px
+  @media (min-width: 600px) {
+    .sidenav-profile {
+      margin-top: 10px;
+    }
+  }
+
+  .menu-items .selected {
+    color: #03a9f4;
+  }
+}

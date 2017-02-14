@@ -1,0 +1,13 @@
+<!-- TOOLBAR -->
+<div ng-include="'toolbar/toolbar.view.html'"></div>
+
+<!-- SIDENAV & MAIN CONTENT CONTAINER -->
+<div flex layout="row">
+
+  <!-- SIDENAV -->
+  <div ng-include="'sidenav/sidenav.view.html'" layout="column"></div>
+
+  <!-- MAIN CONTENT -->
+  <div ui-view flex></div>
+</div>
+

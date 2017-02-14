@@ -1,0 +1,15 @@
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.sass-cache
+*.orig
+*.diff
+junit-report.xml
+build/
+public
+production/
+node_modules/
+reports/
+coverage/
+vendor

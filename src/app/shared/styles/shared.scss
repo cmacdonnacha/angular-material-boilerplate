@@ -1,0 +1,10 @@
+// ** This is where you define styles that are used globally across the entire app ** //
+@import "mixins";
+
+//  Class: img-circle
+//  Description: Used to make a circular element. (e.g Change a square <img> to a circle)
+.img-circle {
+  @include circle;
+}
+
+

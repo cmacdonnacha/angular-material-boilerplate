@@ -1,0 +1,9 @@
+<div class="todo-page" ng-controller="ToDoCtrl as todo" layout-margin>
+  <h3 class="md-headline">To-Do</h3>
+  <md-list>
+    <md-list-item ng-repeat="item in todo.toDoItems">
+      <md-checkbox ng-model="item.completed" aria-label="Checkbox"></md-checkbox>
+      {{ item.title }}
+    </md-list-item>
+  </md-list>
+</div>

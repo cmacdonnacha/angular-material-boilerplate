@@ -1,0 +1,11 @@
+// ** This is where you can put your very own put Sass Mixins that can be used globally. **
+
+//  Mixin: circle ($width:50%, $height:50%)
+//  Description: Used to make a circular element. (e.g Change a square <img> to a circle)
+//  @params $width: [ number ]: Specify the width of the element. Set to 50% if an argument is not passed.
+//  @params $height: [ number ]: Specify the height of the element. Set to 50% if an argument is not passed.
+@mixin circle ($width:50%, $height:50%) {
+  width: $width;
+  height: $height;
+  border-radius: 50%;
+}
