@@ -21,9 +21,10 @@ A straightforward and well structured boilerplate based on Google's Angular Mate
 [Check out the live demo](http://cmacdonnacha.github.io/angular-material-boilerplate/)
 
 ## Setup
-1. `git clone https://github.com/cmacdonnacha/angular-material-boilerplate.git myApp`
-2. `cd myApp`
-3. `npm install`
+1. Install [Git](https://git-scm.com/downloads) and [NodeJS](http://nodejs.org/)
+2. `git clone https://github.com/cmacdonnacha/angular-material-boilerplate.git myApp`
+3. `cd myApp`
+4. `npm install`
 
 ## Quick Usage
 * `npm start` : Creates a development build folder called `public` and serves it on: [`http://localhost:3000/`](http://localhost:3000/)
