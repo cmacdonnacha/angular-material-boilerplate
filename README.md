@@ -55,7 +55,7 @@ By retaining this structure the project is much more manageable as it grows.
 * The `assets` folder contains all globally used images.
 
 #### Adding a new feature folder
-In the future I hope to automate the ability to create a new feature folder but for now, check out the [wiki](https://github.com/cmacdonnacha/angular-material-boilerplate/wiki/How-to-add-a-new-feature) to see how you can go about adding one manually.
+In the future I hope to automate the ability to create a new feature folder but for now, check out the [wiki](https://github.com/cmacdonnacha/angular-material-boilerplate/wiki/How-to-add-your-own-feature-folder) to see how you can go about adding one manually.
 
 ## Troubleshooting
 Even crème de menthe projects have their issues. Here are some problems you may face along with some suggestions on how to resolve them:
