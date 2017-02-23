@@ -65,10 +65,21 @@ This can happen when trying to delete a folder that's already in use. For exampl
 
 **Suggestion:**
 
+<br>
+
 1. Stop any tasks that are already running and try again.
 
 #### 2. Issue: I'm getting the following error when running the `npm test` task: ***"No selenium server jar found at the specified location"***
 **Suggestion:** Run the following command and try again: `npm run webdriver-update`
+
+<br>
+
+#### 3. Issue: I'm getting the following error while running the `npm start` task: ***"Error: ENOENT: no such file or directory, scandir 'C:....node_modeules\node-sass\vendor"***
+This can happen if you have changed your environment since first installing node-sass or if you are running an old version of node-sass.
+
+**Suggestion:**
+
+1. Run this command: `npm rebuild node-sass`
 <br>
 <br>
 
