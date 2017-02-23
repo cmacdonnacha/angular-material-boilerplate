@@ -1,4 +1,5 @@
-# angular-material-boilerplate
+# angular-material-boilerplate [![Dependency Status](https://david-dm.org/cmacdonnacha/badges.svg)](https://david-dm.org/cmacdonnacha/badges) [![devDependency Status](https://david-dm.org/cmacdonnacha/badges/dev-status.svg)](https://david-dm.org/cmacdonnacha/badges#info=devDependencies)
+
 A straightforward and well structured boilerplate based on Google's Angular Material project.
 
 ## Features
