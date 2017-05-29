@@ -63,29 +63,38 @@ Even crème de menthe projects have their issues. Here are some problems you may
 
 #### 1. Issue: I'm getting the following error: ***"Error: EPERM or operation not permitted or permission denied"***
 This can happen when trying to delete a folder that's already in use. For example when running `npm test` while the `npm start` task is already running.
+
 **Suggestion:**
 1. Stop any tasks that are already running and try again.
 
 <br>
+
 #### 2. Issue: I'm getting the following error when running the `npm test` task: ***"No selenium server jar found at the specified location"***
-**Suggestion:** Run the following command and try again: `npm run webdriver-update`
+
+**Suggestion:** 
+1. Run the following command and try again: `npm run webdriver-update`
 
 <br>
+
 #### 3. Issue: I'm getting the following error while running the `npm start` task: ***"Error: ENOENT: no such file or directory, scandir 'C:....node_modeules\node-sass\vendor"***
 This can happen if you have changed your environment since first installing node-sass or if you are running an old version of node-sass.
-**Suggestion:**
+
+**Suggestion:** 
 
 1. Run this command: `npm rebuild node-sass`
-<br>
+
 <br>
 
 #### 4. Issue: None of the above have helped
 **Suggestion:**
+
 This project has been tested with the following tools:
 * **NodeJs:** 6.9.2
 * **Npm:** 3.10.9
 
 If you are running into issues while installing node packages then ensure you have the versions above installed.
+
+<br>
 
 ## Contribute
 Believe it or not, **angular-material-boilerplate** is not perfect. If you want to improve it somehow then by all means go ahead and create a pull request :-)
